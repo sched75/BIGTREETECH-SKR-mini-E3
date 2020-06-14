@@ -482,10 +482,10 @@
                                   // is more than PID_FUNCTIONAL_RANGE then the PID will be shut off and the heater will be set to min/max.
 
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
-  // Creality Ender-5
-  #define DEFAULT_Kp 21.73
-  #define DEFAULT_Ki 1.54
-  #define DEFAULT_Kd 76.55
+  // Creality Ender-5 - P24.36 I1.84 D80.55
+  #define DEFAULT_Kp 24.36
+  #define DEFAULT_Ki 1.84
+  #define DEFAULT_Kd 80.55
 
   // Ultimaker
   //#define DEFAULT_Kp 22.2
@@ -549,10 +549,10 @@
   //#define DEFAULT_bedKi 1.41
   //#define DEFAULT_bedKd 1675.16
 
-  // FIND YOUR OWN: "M303 E-1 C8 S90" to run autotune on the bed at 90 degreesC for 8 cycles.
-  #define DEFAULT_bedKp 50.71
-  #define DEFAULT_bedKi 9.88
-  #define DEFAULT_bedKd 173.43
+  // FIND YOUR OWN: "M303 E-1 C8 S90" to run autotune on the bed at 90 degreesC for 8 cycles. P49.35 I9.62 D168.81
+  #define DEFAULT_bedKp 49.35
+  #define DEFAULT_bedKi 9.62
+  #define DEFAULT_bedKd 168.81
 
 #endif // PIDTEMPBED
 
